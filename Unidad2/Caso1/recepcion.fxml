@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.Insets?>
+
+
+
+<!-- Establezco las características del VBox que contendrá los elementos y establezco la relación con la clase Controller -->
+
+<VBox  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="10.0"
+		xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Caso1.Controller">
+		
+		<!-- Establezco una etiqueta y el elemento que sirve para la introducción de los datos de la interfaz -->
+		
+		<children>
+			<Label maxWidth="Infinity" text="Número de Serie" style="-fx-font-weight: bold" />
+			<TextField />
+			
+			<Label maxWidth="Infinity" text="Número de instrumentos" style="-fx-font-weight: bold" />
+			<TextField />
+			
+			<Label maxWidth="Infinity" text="Peso" style="-fx-font-weight: bold" />
+			<TextField />
+			
+			<Label maxWidth="Infinity" text="Fecha de recepción" style="-fx-font-weight: bold" />
+			<DatePicker />
+			
+			<Label maxWidth="Infinity" text="Transportista" style="-fx-font-weight: bold" />
+			<TextField />
+			
+			<Label maxWidth="Infinity" text="Observaciones" style="-fx-font-weight: bold" />
+			<TextArea minHeight="150.0" />
+			
+			<Button mnemonicParsing="false" onAction="#recepcionar" text="Recepcionar" style="-fx-font-weight: bold"  />
+		</children>
+		<!-- Establezco los márgenes -->
+		<padding>
+			<Insets bottom="25.0" left="40.0" right="40.0" top="25.0"/>
+		</padding>
+
+</VBox>
+

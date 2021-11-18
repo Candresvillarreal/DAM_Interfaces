@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ticket>
+	<comercio nombre="Papeleria Centro" nif="12345678A" direccion="Calle Principal 1 Local" poblacion="Sevilla" codPostal="41500"></comercio>
+	<cliente dni="87654321Z"></cliente>
+	<factura>1-152/21</factura>
+	<fecha>17/11/21</fecha>
+	<productos>
+		<producto id="2">
+			<nombre>Boligrafo Montblanc</nombre>
+			<descripcion>boligrafo montblanc negro</descripcion>
+			<pvp>242</pvp>	
+		</producto>
+		<producto id="3">
+			<nombre>Pluma Parker</nombre>
+			<descripcion>pluma parker negro</descripcion>
+			<pvp>48.40</pvp>
+		</producto>
+	</productos>
+	<precioVenta>240.00</precioVenta>
+	<iva>50.40</iva>
+	<pvp>290.40</pvp>
+	<formaPago>Contado</formaPago>
+	<vendedor codigo="5"></vendedor>
+</ticket>

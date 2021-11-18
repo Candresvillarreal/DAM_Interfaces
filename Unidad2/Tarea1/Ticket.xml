@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+	<comercio nombre="" nif="" direccion="" poblacion="" codPostal="l"></comercio>
+	<cliente dni=""></cliente>
+	<factura>t</factura>
+	<fecha></fecha>
+	<productos>
+		<producto id="">
+			<nombre></nombre>
+			<descripcion></descripcion>
+			<pvp></pvp>	
+		</producto>
+	</productos>
+	<precioVenta></precioVenta>
+	<iva></iva>
+	<pvp></pvp>
+	<formaPago></formaPago>
+	<vendedor codigo=""></vendedor>
+</ticket>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<articulos>
+	<producto>
+		<id>1</id>
+		<nombre>Boligrafo Bic</nombre>
+		<descripcion>boligrafo bic azul</descripcion>
+		<proveedor>bic</proveedor>
+		<paisOrigen>España</paisOrigen>
+		<stock>1000</stock>
+		<precioCompra>0.10</precioCompra>
+		<precioVenta>0.40</precioVenta>
+		<iva>21%</iva>
+		<pvp>0.49</pvp>
+	</producto>
+	<producto>
+		<id>2</id>
+		<nombre>Boligrafo Montblanc</nombre>
+		<descripcion>boligrafo montblanc negro</descripcion>
+		<proveedor>Montblanc</proveedor>
+		<paisOrigen>Francia</paisOrigen>
+		<stock>20</stock>
+		<precioCompra>100</precioCompra>
+		<precioVenta>200</precioVenta>
+		<iva>21%</iva>
+		<pvp>242</pvp>
+	</producto>
+	<producto>
+		<id>3</id>
+		<nombre>Pluma Parker</nombre>
+		<descripcion>pluma parker negro</descripcion>
+		<proveedor>Parker</proveedor>
+		<paisOrigen>España</paisOrigen>
+		<stock>100</stock>
+		<precioCompra>20</precioCompra>
+		<precioVenta>40</precioVenta>
+		<iva>21%</iva>
+		<pvp>48.40</pvp>
+	</producto>
+</articulos>

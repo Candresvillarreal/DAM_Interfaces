@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<articulos>
+	<producto>
+		<id></id>
+		<nombre></nombre>
+		<descripcion></descripcion>
+		<proveedor></proveedor>
+		<paisOrigen></paisOrigen>
+		<stock></stock>
+		<precioCompra></precioCompra>
+		<precioVenta></precioVenta>
+		<iva></iva>
+		<pvp></pvp>
+	</producto>
+</articulos>
+
